@@ -8,3 +8,6 @@ Inside the `styles` folder will contains the following structure:
 - pages **folder**
 - utilities **folder**
 - main.scss **file**
+
+## Image
+![Logo](https://iili.io/L238va.png)
