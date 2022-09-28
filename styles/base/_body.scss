@@ -1,0 +1,6 @@
+@use '../abstracts/abstracts' as a;
+
+body {
+    background-color: a.$clr-secondary;
+    font-family: a.$ff-poppins;
+}

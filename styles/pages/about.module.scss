@@ -1,0 +1,21 @@
+@use '../abstracts/abstracts' as a;
+
+.section_about {
+    height: 120vh;
+    background-color: a.$clr-yellow;
+    padding: a.$p-5;
+    font-size: a.$fs-24;
+}
+
+// @include a.max_sm {
+//     .section_about {
+//         background-color: a.$clr-yellow;
+//     }
+// }
+
+@include a.min_sm {
+    .section_about {
+        background-color: hsl(0, 0%, 12%);
+
+    }
+}

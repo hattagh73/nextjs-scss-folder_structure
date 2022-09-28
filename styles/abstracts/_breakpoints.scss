@@ -1,0 +1,28 @@
+$breakpoints: (
+    "xs":       320px,
+    "sm":       480px,
+    "md":       768px,
+    "lg":       992px
+);
+
+
+/* Max-Width Mobile = 0px-480px */
+@mixin max_sm {
+    @media(max-width: map-get($breakpoints, "sm")) {
+        @content;
+    }
+}
+
+/* Min-Width Mobile = >480px */
+@mixin min_sm {
+    @media(min-width: map-get($breakpoints, "sm")) {
+        @content;
+    }
+}
+
+/* Min-Width Desktop = >9920px */
+@mixin lg {
+    @media(min-width: map-get($breakpoints, "lg")) {
+        @content;
+    }
+}

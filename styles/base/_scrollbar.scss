@@ -1,0 +1,22 @@
+/* START Scrollbar */
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 83%, 61%);
+    border-radius: 10px;
+    
+    &:hover {
+        background-color: hsl(0, 83%, 81%);
+    }
+}
+
+html::-webkit-scrollbar-track {
+    background-color: hsl(0, 0%, 87%);
+
+    &:hover {
+        background-color: hsl(0, 0%, 97%);
+    }
+}
+/* END Scrollbar */
